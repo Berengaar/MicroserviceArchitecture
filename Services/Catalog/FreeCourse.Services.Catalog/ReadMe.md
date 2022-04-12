@@ -1,7 +1,7 @@
 ﻿# **CATALOG**
 </br></hr>
 
-> Configuring Development Environment
+> **Configuring Development Environment**
 <p>
     => Open launchsettings.json and do this configuration :
     <br> &emsp; <b>
@@ -13,4 +13,5 @@
 </p>
 
 > Packages
-* MongoDb.Driver
+* MongoDb.Driver (2.15.0)
+* AutoMapper.Extensions.Microsoft.DependencyInjection (11.0.0)
