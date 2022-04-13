@@ -8,6 +8,7 @@ namespace FreeCourse.Shared.Dtos
     public class Response<T>
     {
         public T Data { get; private set; }
+        public string SuccessMessage { get; private set; }
 
         [JsonIgnore]
         public int StatusCode { get; private set; }
@@ -21,6 +22,11 @@ namespace FreeCourse.Shared.Dtos
         public static Response<T> Success(T data, int statusCode)
         {
             return new Response<T> { Data = data, StatusCode = statusCode, IsSuccessful = true };
+        }
+
+        public static Response<T> Success(string message, int statusCode)
+        {
+            return new Response<T> { SuccessMessage = message, StatusCode = statusCode, IsSuccessful = true };
         }
 
         public static Response<T> Success(int statusCode)

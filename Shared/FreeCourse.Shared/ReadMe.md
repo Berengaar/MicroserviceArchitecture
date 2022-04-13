@@ -6,11 +6,7 @@
 
 <hr>
 
-## Content :
-> ResponseDto 
-* Error
-* Success
 
 ### Patterns :
-* Generic Pattern
 * Static Factory Method Pattern
+* Generic Response Pattern

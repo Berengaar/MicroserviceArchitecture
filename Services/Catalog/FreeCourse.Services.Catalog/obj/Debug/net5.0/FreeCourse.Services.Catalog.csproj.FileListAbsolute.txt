@@ -49,3 +49,5 @@ D:\Users\Bdk11\Desktop\Docs Emir\Microservice Architecture\MicroserviceArchitect
 D:\Users\Bdk11\Desktop\Docs Emir\Microservice Architecture\MicroserviceArchitecture\Services\Catalog\FreeCourse.Services.Catalog\bin\Debug\net5.0\runtimes\linux\native\libmongocrypt.so
 D:\Users\Bdk11\Desktop\Docs Emir\Microservice Architecture\MicroserviceArchitecture\Services\Catalog\FreeCourse.Services.Catalog\bin\Debug\net5.0\runtimes\osx\native\libmongocrypt.dylib
 D:\Users\Bdk11\Desktop\Docs Emir\Microservice Architecture\MicroserviceArchitecture\Services\Catalog\FreeCourse.Services.Catalog\bin\Debug\net5.0\runtimes\win\native\mongocrypt.dll
+D:\Users\Bdk11\Desktop\Docs Emir\Microservice Architecture\MicroserviceArchitecture\Services\Catalog\FreeCourse.Services.Catalog\bin\Debug\net5.0\FreeCourse.Shared.dll
+D:\Users\Bdk11\Desktop\Docs Emir\Microservice Architecture\MicroserviceArchitecture\Services\Catalog\FreeCourse.Services.Catalog\bin\Debug\net5.0\FreeCourse.Shared.pdb
