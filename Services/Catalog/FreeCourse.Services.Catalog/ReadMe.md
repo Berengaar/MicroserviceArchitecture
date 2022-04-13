@@ -15,3 +15,6 @@
 > Packages
 * MongoDb.Driver (2.15.0)
 * AutoMapper.Extensions.Microsoft.DependencyInjection (11.0.0)
+
+> Patterns 
+* Options Pattern without DI 
