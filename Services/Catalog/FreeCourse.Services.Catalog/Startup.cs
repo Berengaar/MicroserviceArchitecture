@@ -1,3 +1,4 @@
+using FreeCourse.Services.Catalog.Services;
 using FreeCourse.Services.Catalog.Settings;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
@@ -38,6 +39,9 @@ namespace FreeCourse.Services.Catalog
             {
                 return sp.GetRequiredService<IOptions<DatabaseSettings>>().Value;
             });
+
+            //Service DI
+            services.AddScoped<ICategoryService, CategoryService>();
 
             services.AddControllers();
             services.AddSwaggerGen(c =>

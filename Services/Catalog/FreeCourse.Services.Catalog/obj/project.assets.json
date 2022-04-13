@@ -369,6 +369,16 @@
             "rid": "win"
           }
         }
+      },
+      "FreeCourse.Shared/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "compile": {
+          "bin/placeholder/FreeCourse.Shared.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/FreeCourse.Shared.dll": {}
+        }
       }
     }
   },
@@ -1051,11 +1061,17 @@
         "useSharedDesignerContext.txt",
         "version.txt"
       ]
+    },
+    "FreeCourse.Shared/1.0.0": {
+      "type": "project",
+      "path": "../../../Shared/FreeCourse.Shared/FreeCourse.Shared.csproj",
+      "msbuildProject": "../../../Shared/FreeCourse.Shared/FreeCourse.Shared.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net5.0": [
       "AutoMapper.Extensions.Microsoft.DependencyInjection >= 11.0.0",
+      "FreeCourse.Shared >= 1.0.0",
       "MongoDB.Driver >= 2.15.0",
       "Swashbuckle.AspNetCore >= 6.3.0"
     ]
@@ -1097,7 +1113,11 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "D:\\Users\\Bdk11\\Desktop\\Docs Emir\\Microservice Architecture\\MicroserviceArchitecture\\Shared\\FreeCourse.Shared\\FreeCourse.Shared.csproj": {
+              "projectPath": "D:\\Users\\Bdk11\\Desktop\\Docs Emir\\Microservice Architecture\\MicroserviceArchitecture\\Shared\\FreeCourse.Shared\\FreeCourse.Shared.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
